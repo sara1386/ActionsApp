@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculater</title>
+
+    <script src="Home.js"></script>
+
+
+</head>
+<body>
+
+    <label for="dropdown">Select an action:</label>
+    <select id="actionsDropdown">
+        <option value="multiplication">multiply</option>
+        <option value="divide">divide</option>
+        <option value="add">add</option>
+        <option value="subtract">subtract</option>
+
+    </select>
+
+
+    <input id="value1" />
+    <input id="value2" />
+
+    <button onclick="calculate()"> go</button>
+    <button onclick="cancel()"> cancel</button>
+
+    <p id="result"> </p>
+
+
+
+
+</body>
+</html>
